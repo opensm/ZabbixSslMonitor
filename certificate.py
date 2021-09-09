@@ -30,14 +30,7 @@ def get_domain_list():
     import json
     domain = {
         "data": [
-            {"{#DOMAIN}": "fdt-gateway-3rd.yueyequan.cn"},
-            {"{#DOMAIN}": "b-iam-account.yueyequan.cn"},
-            {"{#DOMAIN}": "inc-center.yueyequan.cn"},
-            {"{#DOMAIN}": "customer.yueyequan.cn"},
-            {"{#DOMAIN}": "mall-dashboard.yueyequan.cn"},
-            {"{#DOMAIN}": "web-operation-dashboard.yueyequan.cn"},
-            {"{#DOMAIN}": "web-mall-h5.yueyequan.cn"},
-            {"{#DOMAIN}": "web-club-h5.yueyequan.cn"}
+            {"{#DOMAIN}": "www.baidu.com"},
         ]
     }
     print(json.dumps(domain, sort_keys=True, indent=2))
